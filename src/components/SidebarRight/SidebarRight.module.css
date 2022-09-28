@@ -1,0 +1,18 @@
+.time-line {
+	position: relative;
+	background-color: #22244a;
+}
+.time-line::before,
+.time-line::after {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: #22244a;
+	transform: translateX(-50%);
+	left: 50%;
+	border-radius: 50%;
+}
+.time-line::after {
+	bottom: 0 !important;
+}

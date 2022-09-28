@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,500,600,700&display=swap');
+:root {
+	--body-font: 'DM Sans', sans-serif;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: var(--body-font);
+	font-weight: 400;
+	text-rendering: optimizeSpeed;
+	overflow: hidden overlay;
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+	z-index: 999;
+	background-color: rgb(98, 80, 80);
+	background-color: rgb(237, 218, 218);
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+button,
+input {
+	outline: none;
+	border: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+ul {
+	list-style: none;
+}
+a[href] {
+	/* color: var(--text-color); */
+	text-decoration: none;
+}
